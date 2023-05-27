@@ -1,7 +1,29 @@
-# Airflow
-DAG qui permet de récupérer des informations depuis une API de données météo disponible en ligne, les stocke, les transforme et entraîne un algorithme dessus
+# Collecte de données et entraînement de modèles + sélection du plus performant
+DAG qui permet :
+- De récupérer des informations depuis une API de données météo disponible en ligne
+- Les stocke dans un dataset
+- Les transforme et entraîne un algorithme dessus
 
-# Paramétrage
+# Installation de Airflow
+```
+# creating directories
+mkdir clean_data
+mkdir raw_files
+
+echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
+
+# initialisation
+docker-compose up airflow-init
+
+# copie du fichier data.csv
+cp data.csv clean_data/data.csv
+echo '[]' >> raw_files/null_file.json
+
+# lancement des conteneurs airflow
+docker-compose up -d
+```
+
+# Paramétrage du DAG
 Pour exécuter/tester ce DAG il faut effectuer le paramétrage ci-dessous:
 -	Optionnel : Modifier les variables ci-dessous dans le fichier et le remplacer par les vôtres
 o	Api_url=" "
