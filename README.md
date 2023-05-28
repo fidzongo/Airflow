@@ -14,6 +14,7 @@ DAG qui permet :
   <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#comparaison-des-mod%C3%A8les" title="Comparaison des modèles">Comparaison des modèles</a></li>
   <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#definition-du-dag" title="Definition du DAG">Definition du DAG</a></li>
 </ul>
+
 # Installation de Airflow
 ```
 # creating directories
