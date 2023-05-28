@@ -25,7 +25,7 @@ docker-compose up -d
 
 # Paramétrage du DAG
 Pour exécuter/tester ce DAG il faut effectuer le paramétrage ci-dessous:
--	Optionnel : Modifier les variables ci-dessous dans le fichier et le remplacer par les vôtres
+*	Optionnel : Modifier les variables ci-dessous dans le fichier et le remplacer par les vôtres
 `* Api_url=" "`
 `* Api_key=" "`
 `* cities=['paris', 'london', 'washington']`
