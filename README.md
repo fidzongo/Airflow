@@ -4,6 +4,16 @@ DAG qui permet :
 - Les stocke dans un dataset
 - Les transforme et entraîne un algorithme dessus
 
+# Contenu
+<ul id="menu">
+  <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#installation-de-airflow" title="Installation de Airflow">Installation de Airflow</a></li>
+  <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#param%C3%A9trage-du-dag" title="Paramétrage du DAG">Paramétrage du DAG</a></li>
+  <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#r%C3%A9cuperation-des-donn%C3%A9es" title="Récuperation des données">Récuperation des données</a></li>
+  <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#transformation-des-donn%C3%A9es" title="Transformation des données">Transformation des données</a></li>
+  <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#entra%C3%AEnement-du-mod%C3%A8le" title="Entraînement du modèle">Entraînement du modèle</a></li>
+  <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#comparaison-des-mod%C3%A8les" title="Comparaison des modèles">Comparaison des modèles</a></li>
+  <li><a href="https://github.com/fidzongo/Airflow-data-collection-and-model-training/blob/main/README.md#definition-du-dag" title="Definition du DAG">Definition du DAG</a></li>
+</ul>
 # Installation de Airflow
 ```
 # creating directories
