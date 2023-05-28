@@ -39,6 +39,3 @@ Pour exécuter/tester ce DAG il faut effectuer le paramétrage ci-dessous:
 -	Copier enfin le fichier « openweathermap_dag.py » dans le répertoire dags de votre installation airflow
 -	Les premières exécutions seront en erreurs pour les tâches 4’, 4’’ et 4’’’ et 5. Il faut attendre 15 minutes (15 récoltes de fichiers) pour avoir un minimum de données pour l’entrainement des modèles.
 
-* test1
-`* Une sous-puce`
-`* Une sous-puce`
