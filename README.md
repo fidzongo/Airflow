@@ -24,6 +24,7 @@ mkdir raw_files
 echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 
 # initialisation
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose.yaml'
 docker-compose up airflow-init
 
 # copie du fichier data.csv
@@ -32,6 +33,8 @@ echo '[]' >> raw_files/null_file.json
 
 # lancement des conteneurs airflow
 docker-compose up -d
+
+Pour plus d'informations sur l'installation voir la documentation <a href="https://airflow.apache.org/docs/apache-airflow/stable/howto/index.html" title="Airflow">Airflow</a>
 ```
 
 # Paramétrage du DAG
