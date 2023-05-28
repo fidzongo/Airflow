@@ -33,9 +33,8 @@ echo '[]' >> raw_files/null_file.json
 
 # lancement des conteneurs airflow
 docker-compose up -d
-
-Pour plus d'informations sur l'installation voir la documentation <a href="https://airflow.apache.org/docs/apache-airflow/stable/howto/index.html" title="Airflow">Airflow</a>
 ```
+Pour plus d'informations sur l'installation voir la documentation <a href="https://airflow.apache.org/docs/apache-airflow/stable/howto/index.html" title="Airflow">Airflow</a>
 
 # Paramétrage du DAG
 Pour exécuter/tester ce DAG il faut effectuer le paramétrage ci-dessous:
